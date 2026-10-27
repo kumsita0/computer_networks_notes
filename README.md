@@ -49,7 +49,7 @@ Click a week below to access the corresponding notes.
 ## Repository Structure
 
 ```text
-computer-networks-notes/
+computer_networks_notes/
 ├── README.md
 ├── Week 1 — Course orientation and networking fundamentals
 ├── Week 2 — Chapter 2: Application Layer
