@@ -32,6 +32,8 @@ Examples include:
 - A bank server communicating with an ATM.
 
 At home, your laptop and phone connect to a Wi-Fi router. The router connects your devices to your Internet service provider (ISP), which provides access to the wider Internet.
+<img width="861" height="441" alt="image" src="https://github.com/user-attachments/assets/a2591154-bbfe-47d9-b902-e6510cbff52a" />
+
 
 ### Important networking vocabulary
 
@@ -57,6 +59,8 @@ At home, your laptop and phone connect to a Wi-Fi router. The router connects yo
 The Internet is a **global network of interconnected networks**.
 
 It is not one giant computer. It consists of connected devices, routers, servers, communication links, and networks operated by different organizations.
+<img width="937" height="512" alt="image" src="https://github.com/user-attachments/assets/8549f1d2-59d9-40bf-b326-41ec6d75cd59" />
+
 
 ### Major components of the Internet
 
