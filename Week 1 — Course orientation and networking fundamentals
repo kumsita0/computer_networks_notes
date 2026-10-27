@@ -1,1 +1,135 @@
 Understand what networks are, how the Internet works, and how data travels.
+Lesson 1: Computer Networks and the Internet
+Beginner level · Chapter 1 · Study time: approximately 25 minutes
+Part 1 — What is a computer network?
+A computer network is a group of devices connected so they can communicate and share information or resources.
+
+Examples include:
+- Your laptop connecting to your home Wi-Fi.
+- Your phone sending a WhatsApp message.
+- A college computer accessing an online assignment.
+- A bank server communicating with an ATM.
+
+
+
+
+
+
+
+medium.com
+
+
+Think about your home. Your laptop and phone connect to a Wi-Fi router. The router connects your devices to your Internet service provider (ISP), which connects you to the wider Internet.
+Important networking vocabulary
+Term	Simple meaning
+Client	A device or program requesting a service
+Server	A computer or program providing a service
+Network	Connected devices that communicate
+Router	Forwards packets between networks
+Switch	Connects devices within a local network
+ISP	Company providing Internet access
+Protocol	Rules that devices follow to communicate
+Packet	A unit of data sent across a network
+
+Exam tip: A protocol is a set of rules defining how communicating devices exchange information. Examples include HTTP, TCP, and IP.
+Part 2 — What is the Internet?
+The Internet is a global network of interconnected networks.
+
+It is not one giant computer. It consists of millions of connected devices, routers, servers, communication links, and networks operated by different organizations.
+
+
+
+
+
+
+
+slideshare.net
+
+
+Imagine opening a website on your laptop.
+1. You enter a website address.
+2. Your computer discovers the server's IP address using DNS.
+3. Your computer sends data through your local network and Internet provider.
+4. Routers forward the data toward the destination.
+5. The server responds, and your browser displays the website.
+We'll learn each of these steps in the upcoming chapters.
+Part 3 — How data travels across the Internet
+Let's use a simple example: opening a website.
+1. Your laptop
+
+You request a website.
+
+2. Wi-Fi router
+
+Connects your device to the network.
+
+3. ISP and Internet routers
+
+Forward packets toward the destination.
+
+4. Web server
+
+Receives the request and sends a response.
+
+
+One important concept: the Internet usually sends information in packets rather than treating an entire large message as one indivisible unit. Packets contain data and control information needed for delivery.
+What is a protocol?
+Consider two people communicating. If one speaks English and the other understands only Japanese, they need a shared language or a translation method.
+
+Computers also need agreed-upon rules.
+- HTTP/HTTPS: Used to exchange web content.
+- TCP: Provides reliable, ordered delivery of a byte stream.
+- IP: Provides addressing and forwarding of packets between networks.
+- DNS: Translates domain names, such as example.com, into IP addresses when needed.
+These protocols perform different jobs. Don't worry about memorizing every detail yet.
+Part 4 — The five-layer Internet model
+A key concept in Chapter 1 is the layered architecture of computer networks.
+Application
+
+HTTP, DNS
+
+What applications need to communicate
+
+
+Transport
+
+TCP, UDP
+
+Communication between application processes
+
+
+Network
+
+IP
+
+Moving packets between networks
+
+
+Link
+
+Ethernet, Wi-Fi
+
+Sending data over a local link
+
+
+Physical
+
+Cables, radio signals
+
+Transmitting bits as signals
+
+
+
+Here is an easy way to remember the layers, from top to bottom:
+
+Application → Transport → Network → Link → Physical
+
+Each layer provides services to the layer above it and uses services from the layer below it.
+
+For example, when you send a web request:
+- The application layer creates the request.
+- The transport layer handles process-to-process delivery.
+- The network layer handles IP addressing and packet forwarding.
+- The link layer prepares data for the next network hop.
+- The physical layer transmits the bits.
+This process is called encapsulation as data moves down the layers. At the receiving end, the layers process the information in reverse order.
