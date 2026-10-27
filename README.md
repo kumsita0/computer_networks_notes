@@ -1,7 +1,5 @@
-# computer_networks_notes
-My Computer Networks course notes, study materials, chapter summaries, and exam preparation resources.
-
 # Computer Networks Notes
+My Computer Networks course notes, study materials, chapter summaries, and exam preparation resources.
 
 ## Overview
 This repository contains my study notes, chapter summaries, and exam preparation materials for my Computer Networks course.
