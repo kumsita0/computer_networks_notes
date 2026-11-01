@@ -189,6 +189,13 @@ Computer B checks the received frame's FCS to determine whether transmission err
 
 If the frame passes the error check, Computer B processes the Ethernet frame and passes the encapsulated packet to the Network Layer.
 
+## Chapter 6 – Visual Overview
+
+The following infographic summarizes the major
+concepts covered in this chapter.
+
+![Link Layer and LANs Overview](images/week7-link-layer-infographic.png)
+
 ### Final Summary
 
 | Concept | Main Responsibility |
